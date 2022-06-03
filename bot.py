@@ -39,10 +39,10 @@ def main():
     tl_admin_user = config.TG_ADMIN_USER
 
     # set in debug
-    api_id = 7386053
-    api_hash = '78d1c032f3aa546ff5176d9ff0e7f341'
-    bot_token = '5165975001:AAH3E2DCwGHQAiy9tfOElKRFNOC7srUvmj4'
-    tl_admin_user = 'obisoftdev'
+    api_id = 11053383
+    api_hash = '8d72f553790680d435510f78f09c1bcf'
+    bot_token = '5355825878:AAFglWKnrrH3mRHl5HPxDl9jRG5KC90h27k'
+    tl_admin_user = 'manzanatg'
     # end
 
     #create dispatcher and regs
@@ -71,7 +71,7 @@ def main():
 
     # create a bot and events
     bot = TelegramClient(
-        'bot', api_id=int(api_id), api_hash=api_hash).start(bot_token=bot_token)
+        'probando12345678', api_id=int(api_id), api_hash=api_hash).start(bot_token=bot_token)
 
     loop = asyncio.get_event_loop()
     tmanager = ThreadManager(loop)
